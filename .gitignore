@@ -6,6 +6,7 @@ npm-debug.log
 *.terraform
 *.pem
 *.tfvars
+*.tfvars.json
 *.tfplan
 *.tfstate
 *.tfstate.backup
@@ -13,3 +14,4 @@ npm-debug.log
 .terraform
 .DS_Store
 *.hcl
+backend.tf

@@ -1,6 +1,7 @@
 ### VARIABLES
 variable "project-id" {
   type = string
+  default = "hip-caster-376614"
 }
 
 variable "region" {
@@ -16,6 +17,11 @@ variable "zone" {
 variable "subnet-name" {
   type = string
   default = "subnet1"
+}
+
+variable "micro-instance" {
+  type = string
+  default = "e2-micro"
 }
 
 variable "subnet-cidr" {
